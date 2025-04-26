@@ -2,16 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-image: url(https://png.pngtree.com/png-vector/20221020/ourlarge/pngtree-diverse-people-working-on-computer-together-solving-business-problem-png-image_6331911.png);
     background-size: cover;
 
 }
 
 header {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     padding: 20px;
 
     h1 {
