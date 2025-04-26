@@ -1,9 +1,4 @@
 body {
-    display: grid;
-    grid-template-areas:
-        'header'
-        'main'
-        'footer';
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -14,8 +9,8 @@ body {
 }
 
 header {
-    grid-area: header;
     display: flex;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
 
@@ -44,7 +39,6 @@ header {
 }
 
 main {
-    grid-area: main;
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -113,7 +107,6 @@ main {
 }
 
 footer {
-    grid-area: footer;
     display: flex;
     flex-direction: column;
     justify-content: center;
