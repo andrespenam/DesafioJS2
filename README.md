@@ -1,5 +1,5 @@
 # Andrés Peña Montilla
-## _Desafio 1 JavaScript, Desafio Latam_
+## _Desafio 2 JavaScript, Desafio Latam_
 
 El Siguiente desafio se hizo de la siguiente manera:
 #### 1.- Armado de carpetas y estructuras.
