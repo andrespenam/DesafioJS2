@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/380/183/non_2x/white-futuristic-3d-shapes-background-free-vector.jpg);
+    background-size: cover;
+
+}
+
+header {
+    padding: 20px;
+
+    h2 {
+        color: #fd0000;
+        font-size: 70px;
+        margin-bottom: 40px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        background-color: rgb(255, 255, 255, 0.7);
+        border-radius: 30%;
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+.sticker {
+    display: flex;
+    flex-direction: column;
+    background: rgb(248, 246, 246, 0.7);
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.sticker img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+input[type="number"]{
+    margin-top: 10px;
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+    font-size: x-large;
+    color: #ff0000;
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 40%;
+}
+
+footer a {
+    color: rgb(255, 0, 0);
+}
